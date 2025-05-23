@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev</title>
+</head>
+
+<body>
+    <form id="form" style="width:50%;display:flex; flex-direction:column; gap:10px;">
+        <label for="prod">Nome do produto: </label>
+        <input type="text" id="produto">
+
+        <label for="price">Preço: </label>
+        <input type="number" step="0.01" id="preco">
+
+        <select id="categoria">
+            <option value="Tecnologia">Tecnologia</option>
+            <option value="Alimentos">Alimentos</option>
+            <option value="Moda">Moda</option>
+        </select>
+
+        <button id="btnCadastrar">Cadastrar</button>
+
+        <p id="textErro"></p>
+
+        <div id="divEstoque">
+        </div>
+
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>
