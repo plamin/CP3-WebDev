@@ -3,5 +3,5 @@
 ## 1ESPX
 ## DUPLA:
 
-Pedro Henrique Lamin Rodrigues
+Pedro Henrique Lamin Rodrigues<br>
 Lucas Santana Silva
